@@ -1,0 +1,35 @@
+li{
+    list-style-type: none;
+}
+ul{
+    padding: 0;
+}
+.description1{
+    padding: 20px 30px;
+}
+.profile1{
+    border: 1px solid rgba($color: #000000, $alpha: 0.2);
+    text-align: center;
+}
+.avatar1{
+    border-radius: 45%;
+    width: 100px;
+}
+.stats1{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.stat1{
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+width: 80px;
+border: 1px solid rgba($color: #000000, $alpha: 0.2);
+}
+.name1{
+    font-size: 20px;
+    font-weight: 700;
+}

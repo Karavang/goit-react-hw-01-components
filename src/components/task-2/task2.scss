@@ -1,0 +1,27 @@
+.stat-list{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgba($color: #000000, $alpha: 0.2);
+    background-color:random($limit: 1);
+}
+
+.title2{
+    padding: 10px 40px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color:rgba($color: #000000, $alpha: 0.7)
+}
+.statistics2{
+    border: 1px solid rgba($color: #000000, $alpha: 0.2);
+}
