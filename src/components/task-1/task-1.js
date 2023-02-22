@@ -1,4 +1,5 @@
 import "./task1.scss";
+import PropTypes from "prop-types"
 
 function Task1({username,tag,avatar,location,stats}){
 return(   
@@ -33,6 +34,16 @@ return(
 </div>
 )
 }
+
+Task1.propTypes = {
+    username: PropTypes.string,
+    tag: PropTypes.string,
+    avatar: PropTypes.string,
+    location: PropTypes.string,
+    stats: PropTypes.object,
+  };
+
+
 export default Task1;
 
 // ,tag,location,avatar,

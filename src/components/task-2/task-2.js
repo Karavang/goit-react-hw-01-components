@@ -1,4 +1,5 @@
 import "./task2.scss"
+import PropTypes from "prop-types"
 
 
 
@@ -33,6 +34,11 @@ return(
 )
 
 }
+
+Task2.propTypes = {
+  title: PropTypes.string,
+  main: PropTypes.object,
+};
 
 
 export default Task2;

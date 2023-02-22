@@ -1,4 +1,5 @@
 import "./task4.scss"
+import PropTypes from "prop-types"
 
 function Task4({tr}){
 
@@ -28,5 +29,11 @@ return(
 )
     
 }
+
+Task4.propTypes = {
+  tr: PropTypes.object,
+};
+
+
 export default Task4;
 
