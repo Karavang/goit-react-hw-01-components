@@ -28,7 +28,14 @@ function Task4({ tr }) {
 }
 
 Task4.propTypes = {
-  tr: PropTypes.object,
+  tr: PropTypes.arrayOf(
+    PropTypes.exact({
+      id: PropTypes.string,
+      type: PropTypes.string,
+      amount: PropTypes.string,
+      currency: PropTypes.string,
+    })
+  ),
 };
 
 export default Task4;

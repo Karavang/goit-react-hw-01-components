@@ -32,7 +32,13 @@ function Task2({ title, main }) {
 
 Task2.propTypes = {
   title: PropTypes.string,
-  main: PropTypes.object,
+  main: PropTypes.arrayOf(
+    PropTypes.exact({
+      id: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
+    })
+  ),
 };
 
 export default Task2;
